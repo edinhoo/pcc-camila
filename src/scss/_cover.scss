@@ -1,0 +1,25 @@
+#cover {
+  align-items: center;
+  background-color: $dark-gray;
+  display: flex;
+  justify-content: center;
+  min-height: 200vh;
+  width: 100%;
+
+  .wrapper {
+    color: $pure-white;
+    max-width: 540px;
+    text-align: center;
+    width: 100%;
+
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+
+    .description {
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+#header {
+  align-items: center;
+  background-color: $very-dark-gray;
+  box-sizing: border-box;
+  display: flex;
+  height: 88px;
+  justify-content: space-between;
+  left: 0;
+  padding: 0 36px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  .menu-btn {
+    align-items: center;
+    color: $pure-white;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Dosis';
+    font-size: 24px;
+    font-weight: bold;
+
+    .icon {
+      margin-right: 18px;
+      margin-top: 2px;
+
+      svg {
+        * {
+          fill: $pure-white;
+        }
+      }
+    }
+  }
+
+  .search-box {
+    .search {
+      background-color: transparent;
+      border-radius: 20px;
+      border: 1px solid $pure-white;
+      box-sizing: border-box;
+      display: block;
+      font-size: 14px;
+      padding: 6px 12px;
+      text-align: center;
+      width: 290px;
+    }
+  }
+}
