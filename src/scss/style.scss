@@ -2,6 +2,13 @@
 @import 'fonts';
 @import 'bootstrap';
 
-@import 'header';
-@import 'nav';
-@import 'cover';
+@import 'components/header';
+@import 'components/nav';
+@import 'components/cover';
+@import 'components/main';
+@import 'components/link-button';
+
+@import 'components/footer';
+
+@import 'pages/home/your-rights';
+@import 'pages/home/about-procedure';
