@@ -1,0 +1,27 @@
+#about-procedure {
+  align-items: flex-start;
+  display: flex;
+
+  .icon {
+    display: block;
+    height: auto;
+    margin-right: 112px;
+    max-width: 500px;
+  }
+
+  .cont {
+    max-width: 480px;
+
+    h2 {
+      font-family: 'Dosis';
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+
+    .text {
+      font-size: 20px;
+      margin-bottom: 32px;
+    }
+  }
+}
