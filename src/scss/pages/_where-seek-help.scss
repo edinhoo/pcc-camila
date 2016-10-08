@@ -1,0 +1,58 @@
+.where-seek-help {
+  .places {
+    margin: 56px 0 64px;
+
+    .row {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto 144px;
+      width: 1280px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .place {
+        align-items: center;
+        display: flex;
+        width: 496px;
+
+        &:first-child {
+          margin-right: 128px;
+        }
+
+        .photo {
+          display: block;
+          margin-right: 48px;
+        }
+
+        .description {
+          font-size: 20px;
+          line-height: 2;
+        }
+      }
+    }
+  }
+
+  .map {
+    align-items: center;
+    background-size: 100% 100%;
+    background: url($path-img + 'map.png') center center no-repeat $dark-gray;
+    display: flex;
+    height: 656px;
+    justify-content: center;
+    width: 100%;
+
+    &:after {
+      align-items: center;
+      background-color: $dark-gray;
+      color: $pure-white;
+      content: 'Mapa';
+      display: flex;
+      font-size: 26px;
+      height: 86px;
+      justify-content: center;
+      width: 290px;
+    }
+  }
+}
