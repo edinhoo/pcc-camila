@@ -1,0 +1,45 @@
+.how-procedure {
+  .new-or-old {
+    h2 {
+      font-family: 'Dosis';
+      font-size: 28px;
+      font-weight: 600;
+      margin: 96px auto 32px;
+      max-width: 890px;
+      text-align: center;
+    }
+
+    .cont {
+      display: flex;
+
+      .new-case,
+      .old-case {
+        box-sizing: border-box;
+        padding: 48px 96px 48px 48px;
+        width: 50%;
+
+        .text {
+          font-size: 24px;
+          text-align: center;
+        }
+
+        .link-button {
+          background-color: $dark-gray;
+          color: $pure-white;
+          font-size: 28px;
+          margin-top: 48px;
+          text-transform: none;
+          width: 302px;
+        }
+      }
+
+      .new-case {
+        background-color: $gray;
+      }
+
+      .old-case {
+        background-color: $light-gray;
+      }
+    }
+  }
+}
