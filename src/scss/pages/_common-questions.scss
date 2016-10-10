@@ -1,0 +1,24 @@
+.common-questions {
+  box-sizing: border-box;
+  padding: 128px 0 104px;
+
+  hr {
+    margin-bottom: 60px;
+    margin-top: 96px;
+  }
+
+  h2 {
+    font-family: 'Dosis';
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .link-button {
+    background-color: $very-dark-gray;
+    color: $pure-white;
+    text-transform: none;
+    width: 352px;
+  }
+}

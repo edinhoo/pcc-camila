@@ -27,6 +27,13 @@
 }
 
 @font-face {
+  font-family: 'Lato';
+  src: url($path-fonts + 'lato-light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Dosis';
   src: url($path-fonts + 'dosis-semibold.ttf');
   font-weight: 600;

@@ -1,0 +1,46 @@
+.accordion {
+  border: 1px solid $very-dark-gray;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 0 auto;
+  width: 660px;
+
+  .item {
+    border-bottom: 1px solid $very-dark-gray;
+    box-sizing: border-box;
+    padding-bottom: 36px;
+    transition: padding-bottom 300ms;
+    width: 100%;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.active {
+      padding-bottom: 64px;
+
+      .title {
+        padding: 40px 40px;
+      }
+
+      .cont {
+        max-height: 100%;
+      }
+    }
+
+    .title {
+      cursor: pointer;
+      padding: 32px 40px 0;
+      text-align: center;
+      transition: padding 300ms;
+    }
+
+    .cont {
+      font-weight: 300;
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 40px;
+      transition: max-height 300ms;
+    }
+  }
+}

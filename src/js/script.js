@@ -4,4 +4,8 @@
   	$( '#nav' ).toggleClass( 'active' );
   });
 
+  $( '.accordion .item' ).on( 'click', function() {
+  	$( this ).toggleClass( 'active' );
+  });
+
 })();
